@@ -43,7 +43,7 @@ void loop() {
   int sensor4 = analogRead(SENSOR_4);
   int sensor5 = analogRead(SENSOR_5);
 
-  // Map the sensor values to your desired range (255 to 0)
+  // Map the sensor values to desired range (255 to 0)
   sensor1 = map(sensor1, 700, 3940, 255, 0); //700 = brightest 
   sensor2 = map(sensor2, 1008, 4075, 255, 0);
   sensor3 = map(sensor3, 1650, 4095, 255, 0);
